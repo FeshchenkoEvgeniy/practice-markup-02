@@ -77,6 +77,7 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
+  border: none;
 }
 .hat-hero button:hover,
 .hat-hero button:focus {
@@ -170,6 +171,8 @@ body {
   text-align: center;
   border-radius: 4px;
   background-color: var(--sectionBG);
+  border: none;
+  cursor: pointer;
 }
 .filter-list button:hover,
 .filter-list button:focus {
