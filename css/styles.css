@@ -131,10 +131,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--mainSecondColor);
 }
-.filter-list button:hover,
-.filter-list button:focus {
-  background-color: var(--blueColor);
-}
 /*---------------------------- Footer ----------------------------*/
 .footer {
   background-color: var(--mainBG);
@@ -145,6 +141,7 @@ body {
 .address-list {
   list-style: none;
   font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -160,4 +157,37 @@ body {
 .footer-contacts:focus,
 .footer-contacts:hover {
   color: var(--blueColor);
+}
+/*---------------------------- Portfolio ----------------------------  */
+.filter-list {
+  list-style: none;
+}
+.filter-list button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 4px;
+  background-color: var(--sectionBG);
+}
+.filter-list button:hover,
+.filter-list button:focus {
+  background-color: var(--blueColor);
+  color: #ffffff;
+}
+.project-list {
+  list-style: none;
+}
+.project-list h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-list p {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--mainSecondColor);
 }
