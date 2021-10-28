@@ -78,6 +78,7 @@ body {
   line-height: 1.875;
   letter-spacing: 0.06em;
   border: none;
+  font-family: inherit;
 }
 .hat-hero button:hover,
 .hat-hero button:focus {
@@ -173,6 +174,7 @@ body {
   background-color: var(--sectionBG);
   border: none;
   cursor: pointer;
+  font-family: inherit;
 }
 .filter-list button:hover,
 .filter-list button:focus {
